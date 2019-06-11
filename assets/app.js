@@ -48,7 +48,7 @@ var game = {
     game.counter--;
     $("#counter-number").html(game.counter);
     if (game.counter === 0) {
-      console.log("TIME UP");
+      console.log("TIME IS UP!");
       game.done();
     }
   },
