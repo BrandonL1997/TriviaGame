@@ -33,6 +33,11 @@ button {
   background: transparent;
   border: 0;
 }
+button:hover {
+  background: rgb(0, 0, 0);
+  border: 2px solid blue;
+  color:green;
+}
 
 h1 {
   margin-bottom: 50px;
@@ -56,13 +61,14 @@ h3 {
   margin-top: 10%;
   background: black;
   border: 2px solid blue;
+  color: white;
 }
 
-#quiz-area h2 {
+#quiz h2 {
   margin-top: 50px;
 }
 
-button:hover {
+#start:hover {
   background: rgb(0, 0, 0);
   border: 2px solid blue;
   color:green;

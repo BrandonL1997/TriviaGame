@@ -1,5 +1,5 @@
 
-var card = $("#quiz-area");
+var card = $("#quiz");
 
 // Question set
 var questions = [{
